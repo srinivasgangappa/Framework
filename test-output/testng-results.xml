@@ -2,20 +2,20 @@
 <testng-results skipped="1" failed="1" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20362" started-at="2016-09-03T12:32:03Z" finished-at="2016-09-03T12:32:23Z">
+  <suite name="Suite" duration-ms="21494" started-at="2016-09-03T13:00:47Z" finished-at="2016-09-03T13:01:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20362" started-at="2016-09-03T12:32:03Z" finished-at="2016-09-03T12:32:23Z">
+    <test name="Test" duration-ms="21494" started-at="2016-09-03T13:00:47Z" finished-at="2016-09-03T13:01:08Z">
       <class name="delta.main.DeltaDrive">
-        <test-method status="PASS" signature="initFramework()[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="initFramework" is-config="true" duration-ms="206" started-at="2016-09-03T18:02:02Z" finished-at="2016-09-03T18:02:03Z">
+        <test-method status="PASS" signature="initFramework()[pri:0, instance:delta.main.DeltaDrive@224aed64]" name="initFramework" is-config="true" duration-ms="295" started-at="2016-09-03T18:30:46Z" finished-at="2016-09-03T18:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initFramework -->
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="launchApp" is-config="true" duration-ms="10005" started-at="2016-09-03T18:02:04Z" finished-at="2016-09-03T18:02:14Z">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:delta.main.DeltaDrive@224aed64]" name="launchApp" is-config="true" duration-ms="10670" started-at="2016-09-03T18:30:48Z" finished-at="2016-09-03T18:30:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="SKIP" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="testScenarios" duration-ms="11" started-at="2016-09-03T18:02:14Z" data-provider="getScenarioConditon" finished-at="2016-09-03T18:02:14Z">
+        <test-method status="SKIP" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDrive@224aed64]" name="testScenarios" duration-ms="5" started-at="2016-09-03T18:30:58Z" data-provider="getScenarioConditon" finished-at="2016-09-03T18:30:58Z">
           <params>
             <param index="0">
               <value>
@@ -39,49 +39,47 @@
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenarios -->
-        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="quitApp" is-config="true" duration-ms="21" started-at="2016-09-03T18:02:14Z" finished-at="2016-09-03T18:02:14Z">
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDrive@224aed64]" name="quitApp" is-config="true" duration-ms="17" started-at="2016-09-03T18:30:58Z" finished-at="2016-09-03T18:30:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScenarios status=SKIP method=DeltaDrive.testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDrive@4520ebad] output={null}]]]>
+                <![CDATA[[TestResult name=testScenarios status=SKIP method=DeltaDrive.testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDrive@224aed64] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitApp -->
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="launchApp" is-config="true" duration-ms="9248" started-at="2016-09-03T18:02:14Z" finished-at="2016-09-03T18:02:23Z">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:delta.main.DeltaDrive@224aed64]" name="launchApp" is-config="true" duration-ms="9742" started-at="2016-09-03T18:30:58Z" finished-at="2016-09-03T18:31:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="FAIL" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="testScenarios" duration-ms="2" started-at="2016-09-03T18:02:23Z" data-provider="getScenarioConditon" finished-at="2016-09-03T18:02:23Z">
+        <test-method status="FAIL" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDrive@224aed64]" name="testScenarios" duration-ms="0" started-at="2016-09-03T18:31:08Z" data-provider="getScenarioConditon" finished-at="2016-09-03T18:31:08Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -98,49 +96,47 @@
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenarios -->
-        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="quitApp" is-config="true" duration-ms="239" started-at="2016-09-03T18:02:23Z" finished-at="2016-09-03T18:02:23Z">
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDrive@224aed64]" name="quitApp" is-config="true" duration-ms="222" started-at="2016-09-03T18:31:08Z" finished-at="2016-09-03T18:31:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScenarios status=FAILURE method=DeltaDrive.testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDrive@4520ebad] output={null}]]]>
+                <![CDATA[[TestResult name=testScenarios status=FAILURE method=DeltaDrive.testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDrive@224aed64] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitApp -->
-        <test-method status="PASS" signature="endFrameWork()[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="endFrameWork" is-config="true" duration-ms="375" started-at="2016-09-03T18:02:23Z" finished-at="2016-09-03T18:02:23Z">
+        <test-method status="PASS" signature="endFrameWork()[pri:0, instance:delta.main.DeltaDrive@224aed64]" name="endFrameWork" is-config="true" duration-ms="360" started-at="2016-09-03T18:31:08Z" finished-at="2016-09-03T18:31:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endFrameWork -->
       </class> <!-- delta.main.DeltaDrive -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
