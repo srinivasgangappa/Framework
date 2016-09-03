@@ -25,21 +25,6 @@ import generic.Utility;
 
 public class DeltaDrive extends BaseDriver
 {
-	public String configPptPath="./config/config.properties";
-	public String scenarioPath="./scripts/scenarios.xlsx";
-	public String reportFilePath="./Report/results.html";
-	public String imageFolderPath="./ScreenShot";
-	public WebDriver driver;
-	public ExtentReports eReport;
-	public ExtentTest testReport;
-	
-	@BeforeSuite
-	public void initFramework()
-	{
-		//Initiate the Report
-		eReport = new ExtentReports(reportFilePath);
-	}
-		
 	@BeforeMethod
 	public void launchApp()
 	{
@@ -119,9 +104,5 @@ public class DeltaDrive extends BaseDriver
 		eReport.endTest(testReport);
 	}
 	
-	@AfterSuite
-	public void endFrameWork()
-	{
-		eReport.flush();
-	}
+
 }

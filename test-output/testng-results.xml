@@ -2,20 +2,20 @@
 <testng-results skipped="1" failed="1" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22933" started-at="2016-09-03T11:33:00Z" finished-at="2016-09-03T11:33:23Z">
+  <suite name="Default suite" duration-ms="20362" started-at="2016-09-03T12:32:03Z" finished-at="2016-09-03T12:32:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22933" started-at="2016-09-03T11:33:00Z" finished-at="2016-09-03T11:33:23Z">
+    <test name="Default test" duration-ms="20362" started-at="2016-09-03T12:32:03Z" finished-at="2016-09-03T12:32:23Z">
       <class name="delta.main.DeltaDrive">
-        <test-method status="PASS" signature="initFramework()[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="initFramework" is-config="true" duration-ms="179" started-at="2016-09-03T17:03:00Z" finished-at="2016-09-03T17:03:00Z">
+        <test-method status="PASS" signature="initFramework()[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="initFramework" is-config="true" duration-ms="206" started-at="2016-09-03T18:02:02Z" finished-at="2016-09-03T18:02:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initFramework -->
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="launchApp" is-config="true" duration-ms="11096" started-at="2016-09-03T17:03:01Z" finished-at="2016-09-03T17:03:12Z">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="launchApp" is-config="true" duration-ms="10005" started-at="2016-09-03T18:02:04Z" finished-at="2016-09-03T18:02:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="SKIP" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="testScenarios" duration-ms="12" started-at="2016-09-03T17:03:12Z" data-provider="getScenarioConditon" finished-at="2016-09-03T17:03:12Z">
+        <test-method status="SKIP" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="testScenarios" duration-ms="11" started-at="2016-09-03T18:02:14Z" data-provider="getScenarioConditon" finished-at="2016-09-03T18:02:14Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Skiping the exception
-	at delta.main.DeltaDrive.testScenarios(DeltaDrive.java:103)
+	at delta.main.DeltaDrive.testScenarios(DeltaDrive.java:88)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenarios -->
-        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="quitApp" is-config="true" duration-ms="20" started-at="2016-09-03T17:03:12Z" finished-at="2016-09-03T17:03:12Z">
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="quitApp" is-config="true" duration-ms="21" started-at="2016-09-03T18:02:14Z" finished-at="2016-09-03T18:02:14Z">
           <params>
             <param index="0">
               <value>
@@ -77,11 +77,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitApp -->
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="launchApp" is-config="true" duration-ms="10758" started-at="2016-09-03T17:03:12Z" finished-at="2016-09-03T17:03:23Z">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="launchApp" is-config="true" duration-ms="9248" started-at="2016-09-03T18:02:14Z" finished-at="2016-09-03T18:02:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="FAIL" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="testScenarios" duration-ms="2" started-at="2016-09-03T17:03:23Z" data-provider="getScenarioConditon" finished-at="2016-09-03T17:03:23Z">
+        <test-method status="FAIL" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="testScenarios" duration-ms="2" started-at="2016-09-03T18:02:23Z" data-provider="getScenarioConditon" finished-at="2016-09-03T18:02:23Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -93,7 +93,7 @@
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at delta.main.DeltaDrive.testScenarios(DeltaDrive.java:83)
+	at delta.main.DeltaDrive.testScenarios(DeltaDrive.java:68)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -125,7 +125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenarios -->
-        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="quitApp" is-config="true" duration-ms="228" started-at="2016-09-03T17:03:23Z" finished-at="2016-09-03T17:03:23Z">
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="quitApp" is-config="true" duration-ms="239" started-at="2016-09-03T18:02:23Z" finished-at="2016-09-03T18:02:23Z">
           <params>
             <param index="0">
               <value>
@@ -136,7 +136,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitApp -->
-        <test-method status="PASS" signature="endFrameWork()[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="endFrameWork" is-config="true" duration-ms="431" started-at="2016-09-03T17:03:23Z" finished-at="2016-09-03T17:03:24Z">
+        <test-method status="PASS" signature="endFrameWork()[pri:0, instance:delta.main.DeltaDrive@4520ebad]" name="endFrameWork" is-config="true" duration-ms="375" started-at="2016-09-03T18:02:23Z" finished-at="2016-09-03T18:02:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endFrameWork -->

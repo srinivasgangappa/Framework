@@ -1,11 +1,20 @@
 package delta.main;
 
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 
 import generic.Excel;
 
-public class BaseDriver
+public class BaseDriver implements CommonConstants
 {
+	public WebDriver driver;
+	public ExtentReports eReport;
+	public ExtentTest testReport;
 	
 	//This Dataprovider is for commented code in test method
 	@DataProvider
@@ -20,8 +29,7 @@ public class BaseDriver
 	@DataProvider
 	public static String[][] getScenarioConditon()
 	{	
-			String controllerPath="./scripts/scenarios.xlsx";
-			String suiteSheet="Condition";
+
 			
 			int setpCount = Excel.getRowCount(controllerPath, suiteSheet);
 			String[][] data1 = new String[setpCount][2];
@@ -36,4 +44,16 @@ public class BaseDriver
 			return data1;
 	}
 
+	@BeforeSuite
+	public void initFramework()
+	{
+		//Initiate the Report
+		eReport = new ExtentReports(reportFilePath);
+	}
+	@AfterSuite
+	public void endFrameWork()
+	{
+		eReport.flush();
+	}
+	
 }
