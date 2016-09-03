@@ -6,10 +6,10 @@
       <class name="delta.main.DeltaDrive">
         <methods>
           <include name="initFramework"/>
+          <include name="endFrameWork"/>
           <include name="testScenarios" invocation-numbers="0 1"/>
           <include name="launchApp"/>
           <include name="quitApp"/>
-          <include name="endFrameWork"/>
         </methods>
       </class> <!-- delta.main.DeltaDrive -->
     </classes>
